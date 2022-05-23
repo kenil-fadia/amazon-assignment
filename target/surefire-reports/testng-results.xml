@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-23T20:38:48 IST" name="Amazon Assignment Suite" finished-at="2022-05-23T20:39:28 IST" duration-ms="40368">
+    <groups>
+    </groups>
+    <test started-at="2022-05-23T20:38:48 IST" name="Assignment" finished-at="2022-05-23T20:39:28 IST" duration-ms="40368">
+      <class name="com.amazon.scripts.Assignment">
+        <test-method is-config="true" signature="environmentSetUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.amazon.scripts.Assignment@73ad4ecc]" started-at="2022-05-23T20:38:48 IST" name="environmentSetUp" finished-at="2022-05-23T20:38:53 IST" duration-ms="4958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gui]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[laptop]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- environmentSetUp -->
+        <test-method signature="completeAssignment()[pri:1, instance:com.amazon.scripts.Assignment@73ad4ecc]" started-at="2022-05-23T20:38:53 IST" name="completeAssignment" finished-at="2022-05-23T20:39:28 IST" duration-ms="35169" status="FAIL">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[class java.lang.String cannot be cast to class org.openqa.selenium.By (java.lang.String is in module java.base of loader 'bootstrap'; org.openqa.selenium.By is in unnamed module of loader 'app')]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: class java.lang.String cannot be cast to class org.openqa.selenium.By (java.lang.String is in module java.base of loader 'bootstrap'; org.openqa.selenium.By is in unnamed module of loader 'app')
+at com.amazon.selenium.interactions.Timeout.waitForElementToBePresent(Timeout.java:56)
+at com.amazon.selenium.interactions.Timeout.waitForElementToBePresent(Timeout.java:52)
+at com.amazon.selenium.interactions.QueryHtml.findElement(QueryHtml.java:32)
+at com.amazon.selenium.interactions.QueryHtml.castLocator(QueryHtml.java:137)
+at com.amazon.selenium.interactions.Mouse.scroll(Mouse.java:272)
+at com.amazon.pages.ItemPage.getAboutThisItemContents(ItemPage.java:25)
+at com.amazon.scripts.Assignment.completeAssignment(Assignment.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeAssignment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.scripts.Assignment@73ad4ecc]" started-at="2022-05-23T20:39:28 IST" name="tearDown" finished-at="2022-05-23T20:39:28 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.scripts.Assignment -->
+    </test> <!-- Assignment -->
+  </suite> <!-- Amazon Assignment Suite -->
+</testng-results>

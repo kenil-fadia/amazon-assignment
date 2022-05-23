@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 42.588 s <<< FAILURE! - in TestSuite
+com.amazon.scripts.Assignment.completeAssignment  Time elapsed: 35.301 s  <<< FAILURE!
+java.lang.ClassCastException: class java.lang.String cannot be cast to class org.openqa.selenium.By (java.lang.String is in module java.base of loader 'bootstrap'; org.openqa.selenium.By is in unnamed module of loader 'app')
+	at com.amazon.scripts.Assignment.completeAssignment(Assignment.java:41)
+

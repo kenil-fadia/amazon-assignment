@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Amazon Assignment Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="classes" name="Assignment(failed)" verbose="0">
+    <parameter name="mode" value="gui"/>
+    <parameter name="myBrowser" value="chrome"/>
+    <parameter name="env" value="prod"/>
+    <parameter name="resolution" value="laptop"/>
+    <classes>
+      <class name="com.amazon.scripts.Assignment">
+        <methods>
+          <include name="completeAssignment"/>
+          <include name="environmentSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.amazon.scripts.Assignment -->
+    </classes>
+  </test> <!-- Assignment(failed) -->
+</suite> <!-- Failed suite [Amazon Assignment Suite] -->

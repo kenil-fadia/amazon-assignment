@@ -1,0 +1,1 @@
+{"uuid":"45886efb-b738-4a7b-b616-c056d03424f7","name":"com.amazon.scripts.Assignment","children":["b6c99ff1-f1e6-438d-9f63-67517906b2c6"],"befores":[{"name":"environmentSetUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1653318528358,"stop":1653318533236}],"afters":[],"start":1653318528222,"stop":1653318568601}

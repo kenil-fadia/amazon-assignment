@@ -1,0 +1,8 @@
+com/amazon/common/AllureTestNGListener.class
+com/amazon/common/InitializeResources.class
+com/amazon/pages/HomePage.class
+com/amazon/scripts/Assignment.class
+com/amazon/pages/TelevisionsPage.class
+com/amazon/common/EnvironmentSetup.class
+com/amazon/data/ScreenResolutions.class
+com/amazon/pages/ItemPage.class
