@@ -68,7 +68,7 @@ mvn clean test -DmyBrowser="chrome" -Dmode="gui" -Dresolution="laptop" -Denv="pr
 -Dresolution - Can have following values ["hd", "laptop", "tablet-landscape", "tablet-portrait", "mobile"]  
 -Denv - Can have following values ["prod", "stage", "qa"]  
 
-You can also import the maven project into an IDE and execute the `src/.xml` as a TestNG suite.  
+You can also import the maven project into an IDE and execute the `src/TestSuites/testng.xml` as a TestNG suite.  
 
 ## Execution Reports  
 
